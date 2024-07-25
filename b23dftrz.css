@@ -73,12 +73,28 @@ main {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
+footer {
+    background-color: #fff;
+    border-top: 5px solid #a0d1f5;
+    padding: 20px;
+}
+
+footer h2 {
+    font-size: 1.5em;
+    color: #00adef;
+    margin: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.5em;
     }
-
+    
+    footer h2 {
+        font-size: 1.2em;
+    }
+    
     .tile {
         padding: 15px;
     }
